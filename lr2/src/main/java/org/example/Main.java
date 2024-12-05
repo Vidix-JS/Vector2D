@@ -9,5 +9,7 @@ public class Main {
         vA.add(vB);
         vA.print();
         System.out.println(vB.length());
+        vA.sub(vC);
+        vA.print();
     }
 }
