@@ -46,4 +46,7 @@ public class Vector2D {
         this.vX = this.vX + v.vX;
         this.vY = this.vY + v.vY;
     }
+    public double length(){
+        return Math.sqrt((Math.pow(this.vX, 2) + Math.pow(this.vY, 2)));
+    }
 }

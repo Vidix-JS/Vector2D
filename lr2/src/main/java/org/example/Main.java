@@ -8,5 +8,6 @@ public class Main {
         vA.print();
         vA.add(vB);
         vA.print();
+        System.out.println(vB.length());
     }
 }
