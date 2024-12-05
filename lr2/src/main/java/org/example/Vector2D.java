@@ -58,4 +58,9 @@ public class Vector2D {
         return Math.sqrt((Math.pow(this.vX, 2) + Math.pow(this.vY, 2)));
     }
 
+    public void scale(double scaleFactor){ // Метод умножающий текущий вектор на scaleFactor.
+        this.vX = vX * scaleFactor;
+        this.vY = vY * scaleFactor;
+    }
+
 }

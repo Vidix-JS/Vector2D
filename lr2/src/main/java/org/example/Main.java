@@ -11,5 +11,7 @@ public class Main {
         System.out.println(vB.length());
         vA.sub(vC);
         vA.print();
+        vC.scale(2);
+        vC.print();
     }
 }
