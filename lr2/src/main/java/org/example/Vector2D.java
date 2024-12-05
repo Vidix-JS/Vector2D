@@ -42,4 +42,8 @@ public class Vector2D {
     public void setvY(double vY) {
         this.vY = vY;
     }
+    public void add(Vector2D v){ //Метод прибавляющий вектор, указанный в аргументе, к текущему.
+        this.vX = this.vX + v.vX;
+        this.vY = this.vY + v.vY;
+    }
 }
