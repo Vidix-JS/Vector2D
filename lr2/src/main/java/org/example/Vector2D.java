@@ -26,4 +26,20 @@ public class Vector2D {
         System.out.print(", ");
         System.out.print(String.format(Locale.US, "%.2f", vY) + ")\n");
     }
+
+    public double getvX() {
+        return vX;
+    }
+
+    public void setvX(double vX) {
+        this.vX = vX;
+    }
+
+    public double getvY() {
+        return vY;
+    }
+
+    public void setvY(double vY) {
+        this.vY = vY;
+    }
 }
